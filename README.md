@@ -44,8 +44,7 @@ Here the out put will print the latest AMI of the AWS ec2 instance. The out put 
 ## Calling data source in resources
 
 we have defined the data source but we need to reference this data source inside a resource block to create a resource with the latest AMI.
-Here we are creating an EC2instanmce from the latest AMI using the Resource. The below script we gives the AMI = output of the data source 
-(data.aws_ami.amazon_latest_ami.image_id).
+Here we are creating an EC2instanmce from the latest AMI using the Resource. In the below script we give an AMI input = to the output of the datasource.
 
 ~~~
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -70,7 +69,7 @@ Here I have already created the key_name and vpc_security_group_ids for my proje
 ----
 ## Conclusion
 
-In this tutorial, we discussed how to create an EC2 AWS instance using the latest AMI from AWS with Terraform.
+In this tutorial, we discussed how to create an EC2 AWS instance using the latest AMI with Terraform.
 
 
 
