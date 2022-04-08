@@ -28,8 +28,8 @@ resource "aws_instance"  "myapp-instance" {
 
   ami                     =    data.aws_ami.amazon_latest_ami.image_id
   instance_type           =    "t2.micro"
-  key_name                =    abhiraj.ga
-  vpc_security_group_ids  =    ["sg-0cbe0a97a26ba768f"]
+  key_name                =    KEY-NAME
+  vpc_security_group_ids  =    ["SECURITY-GROUP-ID"]
   tags = {
    Name = "myapp"
    project = live-sb
