@@ -1,0 +1,1 @@
+# Fetch-the-latest-AWS-AMI-from-AWS-and-create-an-EC2-instance-using-Terraform
