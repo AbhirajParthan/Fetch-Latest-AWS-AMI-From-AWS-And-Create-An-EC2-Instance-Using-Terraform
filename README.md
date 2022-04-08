@@ -69,7 +69,7 @@ Here I have already created the key_name and vpc_security_group_ids for my proje
 ----
 ## Conclusion
 
-In this tutorial, we discussed how to create an EC2 AWS instance using the latest AMI from AWS using Terraform.
+In this tutorial, we discussed how to create an EC2 AWS instance using the latest AMI from AWS with Terraform.
 
 
 
